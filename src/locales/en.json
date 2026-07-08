@@ -4,5 +4,14 @@
   "theme": "Theme",
   "zenmode": "Zen Mode",
   "sshmode": "SSH Mode",
-  "spotlightAlert": "PlatKey: To deactivate Spotlight, the page will reload."
+  "spotlightAlert": "PlatKey: To deactivate Spotlight, the page will reload.",
+  "greenboardWarning": "PlatKey: The Greenboard tool is meant to be used inside exams.",
+  "deactivateShortcutsAlert": "PlatKey: To deactivate shortcuts, this page will reload.",
+  "deactivateShortcutsExamNote": "Don't worry, you won't lose your exam progress.",
+  "deleteContributionConfirm": "Do you want to remove this contribution from your saved contributions?",
+  "save": "Save",
+  "saved": "Saved",
+  "highlightedClasses": "Highlighted classes",
+  "savedContributions": "Saved contributions",
+  "examShortcutsInfo": "You can use shortcuts from your Platkey extension."
 }

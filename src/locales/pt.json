@@ -4,5 +4,14 @@
   "theme": "Tema",
   "zenmode": "Modo Zen",
   "sshmode": "Modo SSH",
-  "spotlightAlert": "PlatKey: To deactivate Spotlight, the page will reload."
+  "spotlightAlert": "PlatKey: Para desativar o Spotlight, a página será recarregada.",
+  "greenboardWarning": "PlatKey: A ferramenta Greenboard foi projetada para uso durante provas.",
+  "deactivateShortcutsAlert": "PlatKey: Para desativar os atalhos, esta página será recarregada.",
+  "deactivateShortcutsExamNote": "Não se preocupe, você não perderá o progresso da prova.",
+  "deleteContributionConfirm": "Deseja remover esta contribuição das suas contribuições salvas?",
+  "save": "Salvar",
+  "saved": "Salvo",
+  "highlightedClasses": "Aulas em destaque",
+  "savedContributions": "Contribuições salvas",
+  "examShortcutsInfo": "Você pode usar atalhos da sua extensão Platkey."
 }

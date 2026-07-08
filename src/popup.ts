@@ -1,5 +1,7 @@
 import esMessages from "./locales/es.json";
 import enMessages from "./locales/en.json";
+import ptMessages from "./locales/pt.json";
+import { getLanguage, t } from "./language";
 
 type IMessages = {
   [key: string]: string;
@@ -212,8 +214,7 @@ greenboardButton.addEventListener("click", () => {
       tabs.forEach((tab) => {
         let tabUrl = tab.url as string;
         if (!tabUrl.includes("/clases/examen")) {
-          const activateGreenboardWarning = `PlatKey: La herramienta Greenboard está pensada para su uso dentro de exámenes.`;
-          window.alert(activateGreenboardWarning);
+          window.alert(t("greenboardWarning"));
           return;
         } else {
           updateGreenboardButton(!greenboard);
@@ -247,9 +248,14 @@ for (let index = 0; index < themeOptions.length; index++) {
 }
 
 function translateContent() {
-  const language = window.navigator.language.slice(0, 2);
+  const language = getLanguage();
   const elements = document.querySelectorAll("[data-i18n]");
-  messages = language === "es" ? esMessages : enMessages;
+  messages =
+    language === "es"
+      ? esMessages
+      : language === "pt"
+      ? ptMessages
+      : enMessages;
 
   elements.forEach((element) => {
     const key = element.getAttribute("data-i18n") as string;
@@ -267,7 +273,9 @@ chrome.storage.sync.get("greenboard", ({ greenboard }) => {
   chrome.tabs.query(queryDefaultOptions, (tabs) => {
     tabs.forEach((tab) => {
       let tabUrl = tab.url as string;
-      const safariPatchComponent = document.getElementById("safari-patch-greenboard") as HTMLDivElement;
+      const safariPatchComponent = document.getElementById(
+        "safari-patch-greenboard"
+      ) as HTMLDivElement;
       if (!tabUrl.includes("/clases/examen")) {
         safariPatchComponent.style.display = "none";
       }
