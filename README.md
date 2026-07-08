@@ -36,9 +36,9 @@
 <p align="center">
   🤗 Thank you for visiting this browser extension project, help spread it by giving a star! 🌟<br />
   <br />
-  🚀 Start participing in the development of this tool in the <a href="https://github.com/360macky/platkey/discussions">Discussions section</a>!<br />
+  🚀 Start participing in the development of this tool in the <a href="https://github.com/marcelo-earth/platkey/discussions">Discussions section</a>!<br />
   <br />
-  <a href="https://github.com/360macky/PlatKey/stargazers"><img src="https://img.shields.io/github/stars/360macky/PlatKey?label=Star%20this%20repository%21&style=social" /></a><br />
+  <a href="https://github.com/marcelo-earth/PlatKey/stargazers"><img src="https://img.shields.io/github/stars/marcelo-earth/PlatKey?label=Star%20this%20repository%21&style=social" /></a><br />
   <br />
   ✅ This project has diagrams to help you understand how it works! 📌<br />
 </p>
@@ -162,13 +162,13 @@ This browser extension was made with the motive of **accelerating the speed of e
 
 ### 🦊 Development
 
-If you want the latest features of PlatKey you can install the development version following [this tutorial](https://github.com/360macky/PlatKey/blob/main/INSTALLATION.md).
+If you want the latest features of PlatKey you can install the development version following [this tutorial](https://github.com/marcelo-earth/PlatKey/blob/main/INSTALLATION.md).
 
 ## 🤲 Contributing
 
-Do you would like to contribute? Do you want to be the author of a new feature? Awesome! please fork the repository and make changes as you like. [Pull requests](https://github.com/360macky/PlatKey/pulls) are warmly welcome.
+Do you would like to contribute? Do you want to be the author of a new feature? Awesome! please fork the repository and make changes as you like. [Pull requests](https://github.com/marcelo-earth/PlatKey/pulls) are warmly welcome.
 
-Also, you can check [Issues](https://github.com/360macky/PlatKey/issues) to get any ideas on how to improve this browser extension.
+Also, you can check [Issues](https://github.com/marcelo-earth/PlatKey/issues) to get any ideas on how to improve this browser extension.
 
 ## 📃 License
 
