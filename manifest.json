@@ -3,7 +3,7 @@
   "description": "Atajos de teclado, guarda clases, guarda aportes, buscador aumentado.",
   "version": "3.2",
   "manifest_version": 3,
-  "author": "Marcelo Arias",
+  "author": "Astronware LLC",
   "background": {
     "service_worker": "/dist/js/background.js"
   },

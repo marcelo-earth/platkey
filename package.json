@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/360macky/platkey.git"
+    "url": "git+https://github.com/marcelo-earth/platkey.git"
   },
   "keywords": [
     "Chrome",
@@ -20,13 +20,12 @@
     "Browser"
   ],
   "author": {
-    "name": "Marcelo Arias",
-    "email": "hello@marceloarias.com",
-    "url": "https://marceloarias.com"
+    "name": "Astronware LLC",
+    "url": "https://platkey.dev"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/360macky/platkey/issues"
+    "url": "https://github.com/marcelo-earth/platkey/issues"
   },
   "homepage": "https://platkey.dev",
   "devDependencies": {
