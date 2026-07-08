@@ -95,7 +95,7 @@ PlatKey has a software architecture targeted to be a browser extension for the C
 
 ### ⭐️ Version Workflow
 
-The latest version of PlatKey used in production is 3.0.0. The source code you can download is the latest version of **PlatKey for Developers**. Which may contain features that are not yet available in stores, and may contain bugs.
+The source code in this repository is versioned at 4.0.0. The source code you can download is the latest version of **PlatKey for Developers**, which may contain features that are not yet available in stores, and may contain bugs.
 
 ### 📦 Architecture
 
