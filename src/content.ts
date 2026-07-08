@@ -4,6 +4,7 @@
 import { isMac, compareKey } from "./utils";
 import { activateGreenboardOnPlatziTest } from "./greenboard";
 import { isStudentInExam } from "./studentLocalization";
+import { t } from "./language";
 
 /**
  * @name nextQuestion
@@ -217,7 +218,7 @@ function addPlatKeyMessageToPlatziExam() {
     "StartExamOverview-list"
   )[0];
   const shortcutsInfo = document.createElement("li") as HTMLLIElement;
-  shortcutsInfo.textContent = "Puedes usar shortcuts de tu extensión Platkey.";
+  shortcutsInfo.textContent = t("examShortcutsInfo");
   overviewList.append(shortcutsInfo);
 }
 
