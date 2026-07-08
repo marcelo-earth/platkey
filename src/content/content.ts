@@ -1,10 +1,10 @@
 /**
  * @file Manages the features from popup.js.
  */
-import { isMac, compareKey } from "./utils";
-import { activateGreenboardOnPlatziTest } from "./greenboard";
-import { isStudentInExam } from "./studentLocalization";
-import { t } from "./language";
+import { isMac, compareKey } from "../shared/utils";
+import { activateGreenboardOnPlatziTest } from "../features/greenboard/greenboard";
+import { isStudentInExam } from "../shared/studentLocalization";
+import { t } from "../i18n/language";
 
 /**
  * @name nextQuestion

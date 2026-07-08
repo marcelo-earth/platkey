@@ -1,4 +1,4 @@
-import { t } from "./language";
+import { t } from "../../i18n/language";
 
 let deactivateShortcutsMessage = `${t("deactivateShortcutsAlert")} ${
   window.location.pathname.startsWith("/clases/examen")
