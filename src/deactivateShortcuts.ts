@@ -1,6 +1,8 @@
-let deactivateShortcutsMessage = `PlatKey: Para desactivar los shortcuts se recargará esta página. ${
+import { t } from "./language";
+
+let deactivateShortcutsMessage = `${t("deactivateShortcutsAlert")} ${
   window.location.pathname.startsWith("/clases/examen")
-    ? "No te preocupes, no perderás el progreso del examen."
+    ? t("deactivateShortcutsExamNote")
     : ""
 }`;
 
