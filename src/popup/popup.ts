@@ -1,7 +1,7 @@
-import esMessages from "./locales/es.json";
-import enMessages from "./locales/en.json";
-import ptMessages from "./locales/pt.json";
-import { getLanguage, t } from "./language";
+import esMessages from "../i18n/locales/es.json";
+import enMessages from "../i18n/locales/en.json";
+import ptMessages from "../i18n/locales/pt.json";
+import { getLanguage, t } from "../i18n/language";
 
 type IMessages = {
   [key: string]: string;

@@ -23,4 +23,4 @@ export const isStudentInClassroom = (): boolean => {
  */
 export const isStudentInExam = (): boolean => {
   return window.location.pathname.includes("/clases/examen/");
-}
+};

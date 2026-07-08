@@ -1,6 +1,6 @@
-import { htmlToElement } from "./utils";
-import { isStudentInClassroom } from "./studentLocalization";
-import { t } from "./language";
+import { htmlToElement } from "../../shared/utils";
+import { isStudentInClassroom } from "../../shared/studentLocalization";
+import { t } from "../../i18n/language";
 
 const reportContainer = document.getElementsByClassName(
   "Header-class-report"

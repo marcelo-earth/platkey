@@ -10,15 +10,30 @@ const srcDir = path.join(__dirname, "..", "src");
 
 module.exports = {
   entry: {
-    background: path.join(srcDir, "background.ts"),
-    popup: path.join(srcDir, "popup.ts"),
-    saveItems: path.join(srcDir, "saveItems.ts"),
-    content: path.join(srcDir, "content.ts"),
-    spotlight: path.join(srcDir, "spotlight.ts"),
-    deactivateSpotlight: path.join(srcDir, "deactivateSpotlight.ts"),
-    deactivateShortcuts: path.join(srcDir, "deactivateShortcuts.ts"),
-    deactivateGreenboard: path.join(srcDir, "deactivateGreenboard.ts"),
-    greenboard: path.join(srcDir, "greenboard.ts"),
+    background: path.join(srcDir, "background", "background.ts"),
+    popup: path.join(srcDir, "popup", "popup.ts"),
+    saveItems: path.join(srcDir, "features", "saveItems", "saveItems.ts"),
+    content: path.join(srcDir, "content", "content.ts"),
+    spotlight: path.join(srcDir, "features", "spotlight", "spotlight.ts"),
+    deactivateSpotlight: path.join(
+      srcDir,
+      "features",
+      "spotlight",
+      "deactivateSpotlight.ts"
+    ),
+    deactivateShortcuts: path.join(
+      srcDir,
+      "features",
+      "shortcuts",
+      "deactivateShortcuts.ts"
+    ),
+    deactivateGreenboard: path.join(
+      srcDir,
+      "features",
+      "greenboard",
+      "deactivateGreenboard.ts"
+    ),
+    greenboard: path.join(srcDir, "features", "greenboard", "greenboard.ts"),
   },
   output: {
     path: path.join(__dirname, "../dist/js"),

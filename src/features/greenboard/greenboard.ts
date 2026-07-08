@@ -1,4 +1,4 @@
-import { getScriptOrStylesheet, htmlToElement } from "./utils";
+import { getScriptOrStylesheet, htmlToElement } from "../../shared/utils";
 
 /**
  * @name activateGreenboardOnPlatziTest

@@ -1,4 +1,4 @@
-import { isMac } from "./utils";
+import { isMac } from "../../shared/utils";
 
 const TIME_TO_LOAD_SPOTLIGHT = 200;
 
