@@ -1,5 +1,6 @@
 import { htmlToElement } from "./utils";
 import { isStudentInClassroom } from "./studentLocalization";
+import { t } from "./language";
 
 const reportContainer = document.getElementsByClassName(
   "Header-class-report"
@@ -87,7 +88,7 @@ if (window.location.href.startsWith("https://platzi.com/clases/")) {
       url: saveContributionButton.getAttribute("data-link"),
       course: saveContributionButton.getAttribute("data-course"),
     };
-    if (saveContributionButton.textContent === "Guardar") {
+    if (saveContributionButton.textContent === t("save")) {
       // Save contribution
       chrome.storage.sync.get(
         "savedContributions",
@@ -97,13 +98,13 @@ if (window.location.href.startsWith("https://platzi.com/clases/")) {
           chrome.storage.sync.set({
             savedContributions: updatedSavedContributions,
           });
-          saveContributionButton.textContent = "Guardado";
+          saveContributionButton.textContent = t("saved");
         }
       );
     } else {
       // Delete contribution
       deleteContributionById(contributionId, () => {
-        saveContributionButton.textContent = "Guardar";
+        saveContributionButton.textContent = t("save");
       });
     }
   }
@@ -166,9 +167,9 @@ if (window.location.href.startsWith("https://platzi.com/clases/")) {
               savedContribution.id === currentContributionId
           );
           if (isSavedContribution) {
-            saveContributionButton.textContent = "Guardado";
+            saveContributionButton.textContent = t("saved");
           } else {
-            saveContributionButton.textContent = "Guardar";
+            saveContributionButton.textContent = t("save");
           }
         }
       );
@@ -239,7 +240,7 @@ if (window.location.href === "https://platzi.com/home") {
     const platziTitleParagraph = document.createElement("p");
     platziListTitleContainer.classList.add("Title");
     platziTitleLeft.classList.add("Title-left");
-    platziTitleParagraph.textContent = "Clases destacadas";
+    platziTitleParagraph.textContent = t("highlightedClasses");
     platziTitleLeft.appendChild(platziTitleParagraph);
     platziListTitleContainer.appendChild(platziTitleLeft);
     platziList.appendChild(platziListTitleContainer);
@@ -274,7 +275,7 @@ if (window.location.href === "https://platzi.com/home") {
     const platziTitleParagraphContributions = document.createElement("p");
     platziListTitleContainerContributions.classList.add("Title");
     platziTitleLeftContributions.classList.add("Title-left");
-    platziTitleParagraphContributions.textContent = "Aportes guardados";
+    platziTitleParagraphContributions.textContent = t("savedContributions");
     platziTitleLeftContributions.appendChild(platziTitleParagraphContributions);
     platziListTitleContainerContributions.appendChild(
       platziTitleLeftContributions
@@ -296,9 +297,7 @@ if (window.location.href === "https://platzi.com/home") {
     function deleteContribution(event: any) {
       event.preventDefault();
       const contributionId = event.target.getAttribute("data-id");
-      let confirm = window.confirm(
-        "¿Deseas eliminar este aporte de tus aportes guardados?"
-      );
+      let confirm = window.confirm(t("deleteContributionConfirm"));
       if (confirm) {
         deleteContributionById(contributionId);
         const contributionCard = document.getElementById(
