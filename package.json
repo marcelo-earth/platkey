@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/360macky/platkey.git"
+    "url": "git+https://github.com/marcelo-earth/platkey.git"
   },
   "keywords": [
     "Chrome",
@@ -25,7 +25,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/360macky/platkey/issues"
+    "url": "https://github.com/marcelo-earth/platkey/issues"
   },
   "homepage": "https://platkey.dev",
   "devDependencies": {
