@@ -175,4 +175,4 @@ Also, you can check [Issues](https://github.com/marcelo-earth/platzi-extension/i
 The source code is distributed under the MIT License.
 See [`LICENSE`](./LICENSE) for more information.
 
-PlatKey is a free and open source project maintained by Astronware LLC.
+Platzi Extension is a free and open source project maintained by Astronware LLC.
