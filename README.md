@@ -61,29 +61,29 @@ It supports chromium-based browsers (like Chrome, Edge, Brave, Arc) and WebKit-b
 
 ## 🚀 Features
 
-Things you can do with **PlatKey**:
+Things you can do with **Platzi Extension**:
 
-### ⌨ PlatKey Shortcuts
+### ⌨ Platzi Extension Shortcuts
 
 Select exam options faster with your own keyboard. Use letters, and numbers!
 
-### 🖌 PlatKey Greenboard
+### 🖌 Platzi Extension Greenboard
 
 Open a fully integrated _whiteboard_ in your exam to be able to draw, do calculations or whatever you want.
 
-### 🧐 PlatKey Zen Mode
+### 🧐 Platzi Extension Zen Mode
 
 A new design that reduces the number of buttons and visual elements in the exam.
 
-### 💻 PlatKey SSH Mode
+### 💻 Platzi Extension SSH Mode
 
 A terminal-style design to solve exams as if you were installing a package.
 
-### 📚 PlatKey Highlight classes
+### 📚 Platzi Extension Highlight classes
 
 Select classes you want to highlight in your Student Home.
 
-### 💾 PlatKey Save contributions
+### 💾 Platzi Extension Save contributions
 
 Save contributions in your Student Home.
 
