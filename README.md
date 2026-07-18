@@ -99,20 +99,20 @@ The source code in this repository is versioned at 4.0.0. The source code you ca
 
 ### 📦 Architecture
 
-PlatKey adopts an all-new architecture for browser extensions using TypeScript for the development of the modules. This enables better experience to interact with the Chrome API.
+Platzi Extension adopts an all-new architecture for browser extensions using TypeScript for the development of the modules. This enables better experience to interact with the Chrome API.
 
-PlatKey uses Webpack for the compilation of the modules written in TypeScript. Webpack is configured into two modes: `development` and `production`.
+Platzi Extension uses Webpack for the compilation of the modules written in TypeScript. Webpack is configured into two modes: `development` and `production`.
 
-PlatKey uses JSDocs for the documentation of the code.
+Platzi Extension uses JSDocs for the documentation of the code.
 
 ```mermaid
 graph TD
-    A[PlatKey is loaded] -->|Load PlatKey Configuration Storage| B(background.js)
+    A[Platzi Extension is loaded] -->|Load Platzi Extension Configuration Storage| B(background.js)
     B --> |Check if web is Platzi| C[\matches: platzi.com/*/]
-    C -->|Load PlatKey default features| D(content_scripts)
+    C -->|Load Platzi Extension default features| D(content_scripts)
 ```
 
-PlatKey does not store information of the users. An account is not required to use the extension.
+Platzi Extension does not store information of the users. An account is not required to use the extension.
 
 Information related to their extension preferences is stored in the browser's storage.
 
