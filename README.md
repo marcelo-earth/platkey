@@ -1,12 +1,12 @@
 <p align="center">
   <img
-    src=".github/PlatKeyIcon.png"
+    src=".github/PlatziExtensionIcon.png"
     align="center"
     width="100"
-    alt="PlatKey"
-    title="PlatKey"
+    alt="Platzi Extension"
+    title="Platzi Extension"
   />
-  <h1 align="center">PlatKey</h1>
+  <h1 align="center">Platzi Extension</h1>
 </p>
 
 <p align="center">🚀 Awesome features for <a href="https://platzi.com">Platzi</a> with this browser extension 🦉.</p>
