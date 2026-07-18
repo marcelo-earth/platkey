@@ -118,7 +118,7 @@ Information related to their extension preferences is stored in the browser's st
 
 ### ✅ Good practices
 
-According to the [Google Chrome Web Store Developer Program Policies](https://developer.chrome.com/docs/webstore/best_practices/), PlatKey as a browser extension follows these good practices:
+According to the [Google Chrome Web Store Developer Program Policies](https://developer.chrome.com/docs/webstore/best_practices/), Platzi Extension as a browser extension follows these good practices:
 
 * **Manifest V3**: The extension uses the new Manifest V3 of Chrome.
 * **Security**: The extension does not store information of the users. An account is not required to use the extension.
@@ -133,20 +133,20 @@ According to the [Google Chrome Web Store Developer Program Policies](https://de
 
 `popup.html` file is the extension window. The `popup.js` file is the JavaScript code whose scope is in this window. It executed when the popup es opened.
 
-`background.ts` file only contains the default storage information about the features of PlatKey. It's the service worker of the extension.
+`background.ts` file only contains the default storage information about the features of Platzi Extension. It's the service worker of the extension.
 
 `content.ts` file is executed in background everytime the page is loaded for the `"https://platzi.com/*"`
 
 ### 🔓 Browser permissions
 
-PlatKey works with these permissions:
+Platzi Extension works with these permissions:
 
 - `storage`: To store variables like `shortcuts`, `greenboard`, etc.
 - `scripting`: To execute JavaScript scripts inside the page itself.
 
 ### ⌨️ Shortcuts Technology
 
-PlatKey [creates an eventlistener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) inside window to listen for keypresses on keys `A`, `B`, `C`, `D`, `E` and `1`, `2`, `3`, `4`, `5` and `6`. Also `X` or `0` key to skip the question.
+Platzi Extension [creates an eventlistener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) inside window to listen for keypresses on keys `A`, `B`, `C`, `D`, `E` and `1`, `2`, `3`, `4`, `5` and `6`. Also `X` or `0` key to skip the question.
 
 ## 🔩 Installation
 
