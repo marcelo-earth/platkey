@@ -14,8 +14,8 @@
 <p align="center">💚 Open Source, Free, and available for Chrome, Edge, Brave, Arc and Safari 🦁</p>
 
 <p align="center">
-  <a href="https://chrome.google.com/webstore/detail/platkey/bdjedpeffgjikndcihipemgdinpcmpcf">🤖 Install on Chromium Browser</a> -
-  <a href="https://apps.apple.com/app/platkey/id1659587636">🍎 Install on Safari</a>
+  <a href="https://chrome.google.com/webstore/detail/platzi-extension/bdjedpeffgjikndcihipemgdinpcmpcf">🤖 Install on Chromium Browser</a> -
+  <a href="https://apps.apple.com/app/platzi-extension/id1659587636">🍎 Install on Safari</a>
 </p>
 
 <p align="center">
@@ -23,22 +23,22 @@
     src=".github/preview.gif"
     align="center"
     width="350"
-    alt="Preview of PlatKey"
-    title="Preview of PlatKey"
+    alt="Preview of Platzi Extension"
+    title="Preview of Platzi Extension"
     style="border-radius: 10px"
   />
 </p>
 
 <p align="center">
-  <a href="https://platkey.dev">www.platkey.dev</a>
+  <a href="https://platziextension.dev">www.platziextension.dev</a>
 </p>
 
 <p align="center">
   🤗 Thank you for visiting this browser extension project, help spread it by giving a star! 🌟<br />
   <br />
-  🚀 Start participing in the development of this tool in the <a href="https://github.com/marcelo-earth/platkey/discussions">Discussions section</a>!<br />
+  🚀 Start participing in the development of this tool in the <a href="https://github.com/marcelo-earth/platzi-extension/discussions">Discussions section</a>!<br />
   <br />
-  <a href="https://github.com/marcelo-earth/PlatKey/stargazers"><img src="https://img.shields.io/github/stars/marcelo-earth/PlatKey?label=Star%20this%20repository%21&style=social" /></a><br />
+  <a href="https://github.com/marcelo-earth/platzi-extension/stargazers"><img src="https://img.shields.io/github/stars/marcelo-earth/platzi-extension?label=Star%20this%20repository%21&style=social" /></a><br />
   <br />
   ✅ This project has diagrams to help you understand how it works! 📌<br />
 </p>
