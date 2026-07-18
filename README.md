@@ -1,12 +1,12 @@
 <p align="center">
   <img
-    src=".github/PlatKeyIcon.png"
+    src=".github/PlatziExtensionIcon.png"
     align="center"
     width="100"
-    alt="PlatKey"
-    title="PlatKey"
+    alt="Platzi Extension"
+    title="Platzi Extension"
   />
-  <h1 align="center">PlatKey</h1>
+  <h1 align="center">Platzi Extension</h1>
 </p>
 
 <p align="center">🚀 Awesome features for <a href="https://platzi.com">Platzi</a> with this browser extension 🦉.</p>
@@ -14,8 +14,8 @@
 <p align="center">💚 Open Source, Free, and available for Chrome, Edge, Brave, Arc and Safari 🦁</p>
 
 <p align="center">
-  <a href="https://chrome.google.com/webstore/detail/platkey/bdjedpeffgjikndcihipemgdinpcmpcf">🤖 Install on Chromium Browser</a> -
-  <a href="https://apps.apple.com/app/platkey/id1659587636">🍎 Install on Safari</a>
+  <a href="https://chrome.google.com/webstore/detail/platzi-extension/bdjedpeffgjikndcihipemgdinpcmpcf">🤖 Install on Chromium Browser</a> -
+  <a href="https://apps.apple.com/app/platzi-extension/id1659587636">🍎 Install on Safari</a>
 </p>
 
 <p align="center">
@@ -23,31 +23,31 @@
     src=".github/preview.gif"
     align="center"
     width="350"
-    alt="Preview of PlatKey"
-    title="Preview of PlatKey"
+    alt="Preview of Platzi Extension"
+    title="Preview of Platzi Extension"
     style="border-radius: 10px"
   />
 </p>
 
 <p align="center">
-  <a href="https://platkey.dev">www.platkey.dev</a>
+  <a href="https://platziextension.dev">www.platziextension.dev</a>
 </p>
 
 <p align="center">
   🤗 Thank you for visiting this browser extension project, help spread it by giving a star! 🌟<br />
   <br />
-  🚀 Start participing in the development of this tool in the <a href="https://github.com/marcelo-earth/platkey/discussions">Discussions section</a>!<br />
+  🚀 Start participing in the development of this tool in the <a href="https://github.com/marcelo-earth/platzi-extension/discussions">Discussions section</a>!<br />
   <br />
-  <a href="https://github.com/marcelo-earth/PlatKey/stargazers"><img src="https://img.shields.io/github/stars/marcelo-earth/PlatKey?label=Star%20this%20repository%21&style=social" /></a><br />
+  <a href="https://github.com/marcelo-earth/platzi-extension/stargazers"><img src="https://img.shields.io/github/stars/marcelo-earth/platzi-extension?label=Star%20this%20repository%21&style=social" /></a><br />
   <br />
   ✅ This project has diagrams to help you understand how it works! 📌<br />
 </p>
 
 ## 🤖 Concept
 
-**PlatKey** is a browser extension that helps you to solve exams faster in Platzi. And also the extension provides new functionalities to improve the experience of taking classes in Platzi.
+**Platzi Extension** is a browser extension that helps you to solve exams faster in Platzi. And also the extension provides new functionalities to improve the experience of taking classes in Platzi.
 
-Briefly the features of PlatKey are:
+Briefly the features of Platzi Extension are:
 
 - **Shortcuts**: Select exam options faster with your own keyboard shortcuts. Also navigate between classes and make contributions using keyboard shortcuts.
 - **Greenboard**: Open a fully integrated _whiteboard_ in your exam.
@@ -61,64 +61,64 @@ It supports chromium-based browsers (like Chrome, Edge, Brave, Arc) and WebKit-b
 
 ## 🚀 Features
 
-Things you can do with **PlatKey**:
+Things you can do with **Platzi Extension**:
 
-### ⌨ PlatKey Shortcuts
+### ⌨ Platzi Extension Shortcuts
 
 Select exam options faster with your own keyboard. Use letters, and numbers!
 
-### 🖌 PlatKey Greenboard
+### 🖌 Platzi Extension Greenboard
 
 Open a fully integrated _whiteboard_ in your exam to be able to draw, do calculations or whatever you want.
 
-### 🧐 PlatKey Zen Mode
+### 🧐 Platzi Extension Zen Mode
 
 A new design that reduces the number of buttons and visual elements in the exam.
 
-### 💻 PlatKey SSH Mode
+### 💻 Platzi Extension SSH Mode
 
 A terminal-style design to solve exams as if you were installing a package.
 
-### 📚 PlatKey Highlight classes
+### 📚 Platzi Extension Highlight classes
 
 Select classes you want to highlight in your Student Home.
 
-### 💾 PlatKey Save contributions
+### 💾 Platzi Extension Save contributions
 
 Save contributions in your Student Home.
 
 ## 💻 Core Development
 
-This section is for developers who want to know how PlatKey works.
+This section is for developers who want to know how Platzi Extension works.
 
-PlatKey has a software architecture targeted to be a browser extension for the Chrome Web Store.
+Platzi Extension has a software architecture targeted to be a browser extension for the Chrome Web Store.
 
 ### ⭐️ Version Workflow
 
-The source code in this repository is versioned at 4.0.0. The source code you can download is the latest version of **PlatKey for Developers**, which may contain features that are not yet available in stores, and may contain bugs.
+The source code in this repository is versioned at 4.0.0. The source code you can download is the latest version of **Platzi Extension for Developers**, which may contain features that are not yet available in stores, and may contain bugs.
 
 ### 📦 Architecture
 
-PlatKey adopts an all-new architecture for browser extensions using TypeScript for the development of the modules. This enables better experience to interact with the Chrome API.
+Platzi Extension adopts an all-new architecture for browser extensions using TypeScript for the development of the modules. This enables better experience to interact with the Chrome API.
 
-PlatKey uses Webpack for the compilation of the modules written in TypeScript. Webpack is configured into two modes: `development` and `production`.
+Platzi Extension uses Webpack for the compilation of the modules written in TypeScript. Webpack is configured into two modes: `development` and `production`.
 
-PlatKey uses JSDocs for the documentation of the code.
+Platzi Extension uses JSDocs for the documentation of the code.
 
 ```mermaid
 graph TD
-    A[PlatKey is loaded] -->|Load PlatKey Configuration Storage| B(background.js)
+    A[Platzi Extension is loaded] -->|Load Platzi Extension Configuration Storage| B(background.js)
     B --> |Check if web is Platzi| C[\matches: platzi.com/*/]
-    C -->|Load PlatKey default features| D(content_scripts)
+    C -->|Load Platzi Extension default features| D(content_scripts)
 ```
 
-PlatKey does not store information of the users. An account is not required to use the extension.
+Platzi Extension does not store information of the users. An account is not required to use the extension.
 
 Information related to their extension preferences is stored in the browser's storage.
 
 ### ✅ Good practices
 
-According to the [Google Chrome Web Store Developer Program Policies](https://developer.chrome.com/docs/webstore/best_practices/), PlatKey as a browser extension follows these good practices:
+According to the [Google Chrome Web Store Developer Program Policies](https://developer.chrome.com/docs/webstore/best_practices/), Platzi Extension as a browser extension follows these good practices:
 
 * **Manifest V3**: The extension uses the new Manifest V3 of Chrome.
 * **Security**: The extension does not store information of the users. An account is not required to use the extension.
@@ -133,26 +133,26 @@ According to the [Google Chrome Web Store Developer Program Policies](https://de
 
 `popup.html` file is the extension window. The `popup.js` file is the JavaScript code whose scope is in this window. It executed when the popup es opened.
 
-`background.ts` file only contains the default storage information about the features of PlatKey. It's the service worker of the extension.
+`background.ts` file only contains the default storage information about the features of Platzi Extension. It's the service worker of the extension.
 
 `content.ts` file is executed in background everytime the page is loaded for the `"https://platzi.com/*"`
 
 ### 🔓 Browser permissions
 
-PlatKey works with these permissions:
+Platzi Extension works with these permissions:
 
 - `storage`: To store variables like `shortcuts`, `greenboard`, etc.
 - `scripting`: To execute JavaScript scripts inside the page itself.
 
 ### ⌨️ Shortcuts Technology
 
-PlatKey [creates an eventlistener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) inside window to listen for keypresses on keys `A`, `B`, `C`, `D`, `E` and `1`, `2`, `3`, `4`, `5` and `6`. Also `X` or `0` key to skip the question.
+Platzi Extension [creates an eventlistener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) inside window to listen for keypresses on keys `A`, `B`, `C`, `D`, `E` and `1`, `2`, `3`, `4`, `5` and `6`. Also `X` or `0` key to skip the question.
 
 ## 🔩 Installation
 
 ### 🚅 Production (recommended)
 
-Go to [PlatKey Extension page](https://chrome.google.com/webstore/detail/PlatKey/bdjedpeffgjikndcihipemgdinpcmpcf?hl=es-419), and click on "Add extension".
+Go to [Platzi Extension page](https://chrome.google.com/webstore/detail/platzi-extension/bdjedpeffgjikndcihipemgdinpcmpcf?hl=es-419), and click on "Add extension".
 
 It works correctly in Google Chrome, Micorosft Edge and Brave.
 
@@ -162,17 +162,17 @@ This browser extension was made with the motive of **accelerating the speed of e
 
 ### 🦊 Development
 
-If you want the latest features of PlatKey you can install the development version following [this tutorial](https://github.com/marcelo-earth/PlatKey/blob/main/INSTALLATION.md).
+If you want the latest features of Platzi Extension you can install the development version following [this tutorial](https://github.com/marcelo-earth/platzi-extension/blob/main/INSTALLATION.md).
 
 ## 🤲 Contributing
 
-Do you would like to contribute? Do you want to be the author of a new feature? Awesome! please fork the repository and make changes as you like. [Pull requests](https://github.com/marcelo-earth/PlatKey/pulls) are warmly welcome.
+Do you would like to contribute? Do you want to be the author of a new feature? Awesome! please fork the repository and make changes as you like. [Pull requests](https://github.com/marcelo-earth/platzi-extension/pulls) are warmly welcome.
 
-Also, you can check [Issues](https://github.com/marcelo-earth/PlatKey/issues) to get any ideas on how to improve this browser extension.
+Also, you can check [Issues](https://github.com/marcelo-earth/platzi-extension/issues) to get any ideas on how to improve this browser extension.
 
 ## 📃 License
 
 The source code is distributed under the MIT License.
 See [`LICENSE`](./LICENSE) for more information.
 
-PlatKey is a free and open source project maintained by Astronware LLC.
+Platzi Extension is a free and open source project maintained by Astronware LLC.

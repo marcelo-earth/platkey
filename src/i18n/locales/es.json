@@ -4,14 +4,14 @@
   "theme": "Tema",
   "zenmode": "Modo Zen",
   "sshmode": "Modo SSH",
-  "spotlightAlert": "PlatKey: Para desactivar Spotlight, la página se recargará.",
-  "greenboardWarning": "PlatKey: La herramienta Greenboard está pensada para su uso dentro de exámenes.",
-  "deactivateShortcutsAlert": "PlatKey: Para desactivar los shortcuts se recargará esta página.",
+  "spotlightAlert": "Platzi Extension: Para desactivar Spotlight, la página se recargará.",
+  "greenboardWarning": "Platzi Extension: La herramienta Greenboard está pensada para su uso dentro de exámenes.",
+  "deactivateShortcutsAlert": "Platzi Extension: Para desactivar los shortcuts se recargará esta página.",
   "deactivateShortcutsExamNote": "No te preocupes, no perderás el progreso del examen.",
   "deleteContributionConfirm": "¿Deseas eliminar este aporte de tus aportes guardados?",
   "save": "Guardar",
   "saved": "Guardado",
   "highlightedClasses": "Clases destacadas",
   "savedContributions": "Aportes guardados",
-  "examShortcutsInfo": "Puedes usar shortcuts de tu extensión Platkey."
+  "examShortcutsInfo": "Puedes usar shortcuts de tu extensión Platzi Extension."
 }

@@ -209,11 +209,11 @@ function handleShortcutsOnPlatzi(event: KeyboardEvent) {
 }
 
 /**
- * @name addPlatKeyMessageToPlatziExam
+ * @name addPlatziExtensionMessageToPlatziExam
  * @description Add a message to the Platzi exam page to inform the user that
- * they can use the Platkey extension with powerful shortcuts.
+ * they can use the Platzi Extension with powerful shortcuts.
  */
-function addPlatKeyMessageToPlatziExam() {
+function addPlatziExtensionMessageToPlatziExam() {
   const overviewList = document.getElementsByClassName(
     "StartExamOverview-list"
   )[0];
@@ -229,7 +229,7 @@ function addPlatKeyMessageToPlatziExam() {
 function activateShortcutsOnPlatzi() {
   if (isStudentInExam()) {
     if (document.getElementsByClassName("StartExamOverview-list").length > 0) {
-      addPlatKeyMessageToPlatziExam();
+      addPlatziExtensionMessageToPlatziExam();
     }
   }
   window.addEventListener("keydown", handleShortcutsOnPlatzi);
