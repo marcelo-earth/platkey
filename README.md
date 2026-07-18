@@ -152,7 +152,7 @@ Platzi Extension [creates an eventlistener](https://developer.mozilla.org/en-US/
 
 ### 🚅 Production (recommended)
 
-Go to [PlatKey Extension page](https://chrome.google.com/webstore/detail/PlatKey/bdjedpeffgjikndcihipemgdinpcmpcf?hl=es-419), and click on "Add extension".
+Go to [Platzi Extension page](https://chrome.google.com/webstore/detail/platzi-extension/bdjedpeffgjikndcihipemgdinpcmpcf?hl=es-419), and click on "Add extension".
 
 It works correctly in Google Chrome, Micorosft Edge and Brave.
 
@@ -162,7 +162,7 @@ This browser extension was made with the motive of **accelerating the speed of e
 
 ### 🦊 Development
 
-If you want the latest features of PlatKey you can install the development version following [this tutorial](https://github.com/marcelo-earth/PlatKey/blob/main/INSTALLATION.md).
+If you want the latest features of Platzi Extension you can install the development version following [this tutorial](https://github.com/marcelo-earth/platzi-extension/blob/main/INSTALLATION.md).
 
 ## 🤲 Contributing
 
