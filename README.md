@@ -166,9 +166,9 @@ If you want the latest features of Platzi Extension you can install the developm
 
 ## 🤲 Contributing
 
-Do you would like to contribute? Do you want to be the author of a new feature? Awesome! please fork the repository and make changes as you like. [Pull requests](https://github.com/marcelo-earth/PlatKey/pulls) are warmly welcome.
+Do you would like to contribute? Do you want to be the author of a new feature? Awesome! please fork the repository and make changes as you like. [Pull requests](https://github.com/marcelo-earth/platzi-extension/pulls) are warmly welcome.
 
-Also, you can check [Issues](https://github.com/marcelo-earth/PlatKey/issues) to get any ideas on how to improve this browser extension.
+Also, you can check [Issues](https://github.com/marcelo-earth/platzi-extension/issues) to get any ideas on how to improve this browser extension.
 
 ## 📃 License
 
