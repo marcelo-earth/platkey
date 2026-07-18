@@ -89,13 +89,13 @@ Save contributions in your Student Home.
 
 ## 💻 Core Development
 
-This section is for developers who want to know how PlatKey works.
+This section is for developers who want to know how Platzi Extension works.
 
-PlatKey has a software architecture targeted to be a browser extension for the Chrome Web Store.
+Platzi Extension has a software architecture targeted to be a browser extension for the Chrome Web Store.
 
 ### ⭐️ Version Workflow
 
-The source code in this repository is versioned at 4.0.0. The source code you can download is the latest version of **PlatKey for Developers**, which may contain features that are not yet available in stores, and may contain bugs.
+The source code in this repository is versioned at 4.0.0. The source code you can download is the latest version of **Platzi Extension for Developers**, which may contain features that are not yet available in stores, and may contain bugs.
 
 ### 📦 Architecture
 
