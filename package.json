@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcelo-earth/platkey.git"
+    "url": "git+https://github.com/marcelo-earth/platzi-extension.git"
   },
   "keywords": [
     "Chrome",
@@ -21,13 +21,13 @@
   ],
   "author": {
     "name": "Astronware LLC",
-    "url": "https://platkey.dev"
+    "url": "https://platziextension.dev"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marcelo-earth/platkey/issues"
+    "url": "https://github.com/marcelo-earth/platzi-extension/issues"
   },
-  "homepage": "https://platkey.dev",
+  "homepage": "https://platziextension.dev",
   "devDependencies": {
     "@types/chrome": "^0.0.213",
     "copy-webpack-plugin": "^11.0.0",
