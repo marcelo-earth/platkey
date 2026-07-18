@@ -45,9 +45,9 @@
 
 ## 🤖 Concept
 
-**PlatKey** is a browser extension that helps you to solve exams faster in Platzi. And also the extension provides new functionalities to improve the experience of taking classes in Platzi.
+**Platzi Extension** is a browser extension that helps you to solve exams faster in Platzi. And also the extension provides new functionalities to improve the experience of taking classes in Platzi.
 
-Briefly the features of PlatKey are:
+Briefly the features of Platzi Extension are:
 
 - **Shortcuts**: Select exam options faster with your own keyboard shortcuts. Also navigate between classes and make contributions using keyboard shortcuts.
 - **Greenboard**: Open a fully integrated _whiteboard_ in your exam.
