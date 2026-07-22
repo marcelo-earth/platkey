@@ -11,6 +11,8 @@
   "deleteContributionConfirm": "¿Deseas eliminar este aporte de tus aportes guardados?",
   "save": "Guardar",
   "saved": "Guardado",
+  "highlightClass": "Destacar esta clase",
+  "deleteContribution": "Eliminar aporte",
   "highlightedClasses": "Clases destacadas",
   "savedContributions": "Aportes guardados",
   "examShortcutsInfo": "Puedes usar shortcuts de tu extensión Platzi Extension."

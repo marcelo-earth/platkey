@@ -11,6 +11,8 @@
   "deleteContributionConfirm": "Deseja remover esta contribuição das suas contribuições salvas?",
   "save": "Salvar",
   "saved": "Salvo",
+  "highlightClass": "Destacar esta aula",
+  "deleteContribution": "Excluir contribuição",
   "highlightedClasses": "Aulas em destaque",
   "savedContributions": "Contribuições salvas",
   "examShortcutsInfo": "Você pode usar atalhos da sua extensão Platzi Extension."
