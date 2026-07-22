@@ -6,7 +6,8 @@
   display: flex;
 }
 
-.learningPathCard:hover .closeNote {
+.learningPathCard:hover .closeNote,
+.closeNote:focus-visible {
   opacity: 100 !important;
 }
 
