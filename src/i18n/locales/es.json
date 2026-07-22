@@ -15,5 +15,7 @@
   "deleteContribution": "Eliminar aporte",
   "highlightedClasses": "Clases destacadas",
   "savedContributions": "Aportes guardados",
-  "examShortcutsInfo": "Puedes usar shortcuts de tu extensión Platzi Extension."
+  "examShortcutsInfo": "Puedes usar shortcuts de tu extensión Platzi Extension.",
+  "chooseColor": "Elegir color",
+  "clearCanvas": "Limpiar"
 }
