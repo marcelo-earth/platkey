@@ -130,22 +130,18 @@ function changeTheme(theme: string) {
   });
 }
 
-chrome.storage.sync.get("shortcuts", ({ shortcuts }) => {
-  updateShortcutsButton(shortcuts);
-});
-chrome.storage.sync.get("greenboard", ({ greenboard }) => {
-  updateGreenboardButton(greenboard);
-});
-chrome.storage.sync.get("spotlight", ({ spotlight }) => {
-  updateSpotlightButton(spotlight);
-});
-
-chrome.storage.sync.get("theme", ({ theme }) => {
-  for (let index = 0; index < themeOptions.length; index++) {
-    let themeOption = themeOptions[index];
-    themeOption.checked = themeOption.id == `radio-${theme}`;
+chrome.storage.sync.get(
+  ["shortcuts", "greenboard", "spotlight", "theme"],
+  ({ shortcuts, greenboard, spotlight, theme }) => {
+    updateShortcutsButton(shortcuts);
+    updateGreenboardButton(greenboard);
+    updateSpotlightButton(spotlight);
+    for (let index = 0; index < themeOptions.length; index++) {
+      let themeOption = themeOptions[index];
+      themeOption.checked = themeOption.id == `radio-${theme}`;
+    }
   }
-});
+);
 
 shortcutsButton.addEventListener("click", () => {
   chrome.storage.sync.get("shortcuts", ({ shortcuts }) => {
@@ -269,16 +265,14 @@ function translateContent() {
 window.addEventListener("load", translateContent);
 
 // Safari patch for window.alert bug
-chrome.storage.sync.get("greenboard", ({ greenboard }) => {
-  chrome.tabs.query(queryDefaultOptions, (tabs) => {
-    tabs.forEach((tab) => {
-      let tabUrl = tab.url as string;
-      const safariPatchComponent = document.getElementById(
-        "safari-patch-greenboard"
-      ) as HTMLDivElement;
-      if (!tabUrl.includes("/clases/examen")) {
-        safariPatchComponent.style.display = "none";
-      }
-    });
+chrome.tabs.query(queryDefaultOptions, (tabs) => {
+  tabs.forEach((tab) => {
+    let tabUrl = tab.url as string;
+    const safariPatchComponent = document.getElementById(
+      "safari-patch-greenboard"
+    ) as HTMLDivElement;
+    if (!tabUrl.includes("/clases/examen")) {
+      safariPatchComponent.style.display = "none";
+    }
   });
 });

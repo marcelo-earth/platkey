@@ -300,28 +300,19 @@ const updatePlatziTheme = (theme: string) => {
 };
 
 /**
- * @description Load shortcuts.
+ * @description Load shortcuts, greenboard and theme in a single storage read.
  */
-chrome.storage.sync.get("shortcuts", ({ shortcuts }) => {
-  if (shortcuts) {
-    activateShortcutsOnPlatzi();
+chrome.storage.sync.get(
+  ["shortcuts", "greenboard", "theme"],
+  ({ shortcuts, greenboard, theme }) => {
+    if (shortcuts) {
+      activateShortcutsOnPlatzi();
+    }
+    if (greenboard) {
+      activateGreenboardOnPlatziTest();
+    } else {
+      deactivateGreenboardOnPlatziTest();
+    }
+    updatePlatziTheme(theme);
   }
-});
-
-/**
- * @description Load greenboard.
- */
-chrome.storage.sync.get("greenboard", ({ greenboard }) => {
-  if (greenboard) {
-    activateGreenboardOnPlatziTest();
-  } else {
-    deactivateGreenboardOnPlatziTest();
-  }
-});
-
-/**
- * @description Load theme.
- */
-chrome.storage.sync.get("theme", ({ theme }) => {
-  updatePlatziTheme(theme);
-});
+);
