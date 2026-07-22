@@ -114,21 +114,21 @@ if (window.location.href.startsWith("https://platzi.com/clases/")) {
    * @description Load the "Save class" button.
    */
   const loadSaveContributionButtons = () => {
-    const contributionsQuantity = Array.from(
+    const contentAuthorElements = Array.from(
       document.getElementsByClassName("Content-author")
-    ).length;
-    for (let index = 0; index < contributionsQuantity; index++) {
+    );
+    const courseName = document.getElementsByClassName(
+      "Header-course-info-content"
+    )[0].children[0].textContent as string;
+    for (let index = 0; index < contentAuthorElements.length; index++) {
       const saveContributionButton = document.createElement("button");
       saveContributionButton.id = `save-${index}`;
       saveContributionButton.classList.add("save-contribution-button");
 
-      const contentAuthorElement = Array.from(
-        document.getElementsByClassName("Content-author")
-      )[index] as any;
+      const contentAuthorElement = contentAuthorElements[index] as any;
 
-      const contributionLinkElement = Array.from(
-        document.getElementsByClassName("Content-author")
-      )[index].children[1].children[1] as HTMLAnchorElement;
+      const contributionLinkElement = contentAuthorElement.children[1]
+        .children[1] as HTMLAnchorElement;
       const contributionLink = contributionLinkElement.href;
 
       const contributionTextElement = contentAuthorElement.parentNode
@@ -136,9 +136,8 @@ if (window.location.href.startsWith("https://platzi.com/clases/")) {
 
       const contributionTextPreview =
         contributionTextElement.textContent.substring(0, 82);
-      const contributionAuthor = Array.from(
-        document.getElementsByClassName("Content-author")
-      )[index].children[1].children[0].textContent as string;
+      const contributionAuthor = contentAuthorElement.children[1].children[0]
+        .textContent as string;
 
       saveContributionButton.setAttribute("data-link", contributionLink);
       saveContributionButton.setAttribute(
@@ -146,11 +145,7 @@ if (window.location.href.startsWith("https://platzi.com/clases/")) {
         contributionTextPreview
       );
       saveContributionButton.setAttribute("data-author", contributionAuthor);
-      saveContributionButton.setAttribute(
-        "data-course",
-        document.getElementsByClassName("Header-course-info-content")[0]
-          .children[0].textContent as any
-      );
+      saveContributionButton.setAttribute("data-course", courseName);
 
       // Check if contribution is saved
       const currentContributionId = getContributionId(
@@ -175,9 +170,7 @@ if (window.location.href.startsWith("https://platzi.com/clases/")) {
       );
 
       saveContributionButton.onclick = saveContribution;
-      Array.from(document.getElementsByClassName("Content-author"))[
-        index
-      ].children[1].appendChild(saveContributionButton);
+      contentAuthorElement.children[1].appendChild(saveContributionButton);
     }
   };
 
