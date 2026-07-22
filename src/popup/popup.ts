@@ -246,6 +246,7 @@ for (let index = 0; index < themeOptions.length; index++) {
 function translateContent() {
   const language = getLanguage();
   const elements = document.querySelectorAll("[data-i18n]");
+  document.documentElement.lang = language;
   messages =
     language === "es"
       ? esMessages
