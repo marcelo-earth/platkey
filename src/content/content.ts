@@ -102,16 +102,16 @@ function handleShortcutsOnPlatzi(event: KeyboardEvent) {
     const shiftP = event.shiftKey && compareKey(["p", "P"], event.key);
     const shiftM = event.shiftKey && compareKey(["m", "M"], event.key);
 
-    const nextClass = document.getElementsByClassName(
-      "Header-course-actions-next"
-    )[0] as HTMLElement;
     if (shiftN) {
+      const nextClass = document.getElementsByClassName(
+        "Header-course-actions-next"
+      )[0] as HTMLElement;
       nextClass.click();
     }
-    const prevClass = document.getElementsByClassName(
-      "Header-course-actions-prev"
-    )[0] as HTMLElement;
     if (shiftP) {
+      const prevClass = document.getElementsByClassName(
+        "Header-course-actions-prev"
+      )[0] as HTMLElement;
       prevClass.click();
     }
     if (shiftA) {
