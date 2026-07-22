@@ -1,4 +1,5 @@
 import { getScriptOrStylesheet, htmlToElement } from "../../shared/utils";
+import { t } from "../../i18n/language";
 
 /**
  * @name activateGreenboardOnPlatziTest
@@ -18,16 +19,15 @@ export function activateGreenboardOnPlatziTest() {
               type="color"
               name="strokeStyle"
               value="#98ca3f"
-              alt="Elegir color"
-              title="Elegir color"
+              aria-label="${t("chooseColor")}"
+              title="${t("chooseColor")}"
             >
             <button
               id="pkey__clearButton"
               class="clearButton"
-              alt="Limpiar"
-              title="Limpiar"
+              title="${t("clearCanvas")}"
             >
-              Limpiar
+              ${t("clearCanvas")}
             </button>
         </section>
     </div>`);
